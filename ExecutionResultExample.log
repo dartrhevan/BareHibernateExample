@@ -1,0 +1,63 @@
+мая 20, 2022 3:15:25 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.0.1.Final}
+мая 20, 2022 3:15:25 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+мая 20, 2022 3:15:25 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+мая 20, 2022 3:15:25 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+мая 20, 2022 3:15:25 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+мая 20, 2022 3:15:25 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/lessonhiber]
+мая 20, 2022 3:15:25 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000046: Connection properties: {user=lessonhiber, password=****}
+мая 20, 2022 3:15:25 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000006: Autocommit mode: false
+мая 20, 2022 3:15:25 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+мая 20, 2022 3:15:25 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+мая 20, 2022 3:15:25 PM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+мая 20, 2022 3:15:25 PM org.hibernate.type.BasicTypeRegistry register
+INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@367ffa75
+мая 20, 2022 3:15:25 PM org.hibernate.envers.boot.internal.EnversServiceImpl configure
+INFO: Envers integration enabled? : true
+мая 20, 2022 3:15:26 PM org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000227: Running hbm2ddl schema export
+мая 20, 2022 3:15:26 PM org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+All students:
+мая 20, 2022 3:15:26 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Student{id=12, recordBook=RecordBook{id=11, code=687670619}, person=Person{id=1, passportSeria=-8420935, lastName='ТОххШмаКБчЯКвЪЩ', firstName='еЙйыАрЪГБмтЧрюр', middleName='оЦрОПлтРЯтфЯРФЧ'}, group='dab28db8-cff2-420e-b426-76ab0acf3db4'}
+Student{id=13, recordBook=RecordBook{id=14, code=-1675699187}, person=Person{id=2, passportSeria=924692589, lastName='рДЙдфЩАчаэыЪАпо', firstName='юЕпткЕАрЧХЛъФйъ', middleName='ЫНПсЪСлкССФХЛЗж'}, group='1a4c76c6-9f99-47b7-a1a4-1d2b212a605f'}
+Student{id=15, recordBook=RecordBook{id=16, code=-628388411}, person=Person{id=3, passportSeria=246486302, lastName='йкфОШыФрогчФлдЪ', firstName='ЗиШоыциЮНЬмлОНг', middleName='аШУХьыьЯИЙэацТЗ'}, group='b847d7b7-2984-4f8f-8709-4aaa5ea52763'}
+Student{id=17, recordBook=RecordBook{id=18, code=-1031766309}, person=Person{id=4, passportSeria=-1736145809, lastName='яшжРфеЩИвЙОумах', firstName='ГжКжЯпюМЧМхЭЗБФ', middleName='ТдШЯЛюАхЯБпЗЗГе'}, group='3c973b13-59c7-4808-a6ee-7ffa540a1350'}
+Student{id=19, recordBook=RecordBook{id=20, code=1642481380}, person=Person{id=5, passportSeria=-1397157146, lastName='ЦъОчЖЗтндеНъяол', firstName='нючрГЦщсэЫУкэЬЗ', middleName='фмвгбщвЩлЬГЕнпГ'}, group='57281a8e-1377-4b8a-85ca-60b4c9ead359'}
+Student{id=21, recordBook=RecordBook{id=22, code=1889308405}, person=Person{id=6, passportSeria=871614961, lastName='ЖтТЭЭлНЧНщжШИЯГ', firstName='выТйорРЙыоиРаэЧ', middleName='ЛучеФнКХьпабувЛ'}, group='ec7d47b6-b76a-46fd-85a0-f1c7c75323a5'}
+Student{id=23, recordBook=null, person=Person{id=7, passportSeria=-2140084932, lastName='РЖцШвжРТОсмЦиГм', firstName='БИАьЛрсЪДсрндпп', middleName='ЩаеЗЧДТЦйгКНВмР'}, group='8d15121f-cef9-4317-b79b-3da0da562e73'}
+Student{id=24, recordBook=null, person=Person{id=8, passportSeria=1569670225, lastName='ТЛФДршЦлЯЮБъАеф', firstName='фСБПьШКчхДтэЙбП', middleName='енЮюХМЯХлЫКфщЧн'}, group='5471cced-984d-4a32-a1d5-3344f68f3f98'}
+Student{id=25, recordBook=null, person=Person{id=9, passportSeria=1805236010, lastName='ТГгКощшШВцНЯЩШш', firstName='ьзХЬцнДУСЛвЩЕаЧ', middleName='ЪоРОнфуиъГлтдвУ'}, group='1c38b395-0386-401a-a7e6-f32dbd661d6a'}
+Student{id=26, recordBook=null, person=Person{id=10, passportSeria=-58727560, lastName='дВпйШюНРхрбЖеФд', firstName='тЛМИМГишеЕкЬъВс', middleName='ЧиЮРЫХюгАЕэшкзй'}, group='d4ada71e-82f5-4370-a078-eaf1390f7588'}
+
+All persons:
+Person{id=1, passportSeria=-8420935, lastName='ТОххШмаКБчЯКвЪЩ', firstName='еЙйыАрЪГБмтЧрюр', middleName='оЦрОПлтРЯтфЯРФЧ'}
+Person{id=2, passportSeria=924692589, lastName='рДЙдфЩАчаэыЪАпо', firstName='юЕпткЕАрЧХЛъФйъ', middleName='ЫНПсЪСлкССФХЛЗж'}
+Person{id=3, passportSeria=246486302, lastName='йкфОШыФрогчФлдЪ', firstName='ЗиШоыциЮНЬмлОНг', middleName='аШУХьыьЯИЙэацТЗ'}
+Person{id=4, passportSeria=-1736145809, lastName='яшжРфеЩИвЙОумах', firstName='ГжКжЯпюМЧМхЭЗБФ', middleName='ТдШЯЛюАхЯБпЗЗГе'}
+Person{id=5, passportSeria=-1397157146, lastName='ЦъОчЖЗтндеНъяол', firstName='нючрГЦщсэЫУкэЬЗ', middleName='фмвгбщвЩлЬГЕнпГ'}
+Person{id=6, passportSeria=871614961, lastName='ЖтТЭЭлНЧНщжШИЯГ', firstName='выТйорРЙыоиРаэЧ', middleName='ЛучеФнКХьпабувЛ'}
+Person{id=7, passportSeria=-2140084932, lastName='РЖцШвжРТОсмЦиГм', firstName='БИАьЛрсЪДсрндпп', middleName='ЩаеЗЧДТЦйгКНВмР'}
+Person{id=8, passportSeria=1569670225, lastName='ТЛФДршЦлЯЮБъАеф', firstName='фСБПьШКчхДтэЙбП', middleName='енЮюХМЯХлЫКфщЧн'}
+Person{id=9, passportSeria=1805236010, lastName='ТГгКощшШВцНЯЩШш', firstName='ьзХЬцнДУСЛвЩЕаЧ', middleName='ЪоРОнфуиъГлтдвУ'}
+Person{id=10, passportSeria=-58727560, lastName='дВпйШюНРхрбЖеФд', firstName='тЛМИМГишеЕкЬъВс', middleName='ЧиЮРЫХюгАЕэшкзй'}
+
+All record books:
+RecordBook{id=11, code=687670619}
+RecordBook{id=14, code=-1675699187}
+RecordBook{id=16, code=-628388411}
+RecordBook{id=18, code=-1031766309}
+RecordBook{id=20, code=1642481380}
+RecordBook{id=22, code=1889308405}
