@@ -5,7 +5,7 @@ import org.hibernate.Session;
 import java.util.List;
 
 public abstract class AbstractDAO<T> {
-    private final Session session;
+    protected final Session session;
 
     public AbstractDAO(Session session) {
         this.session = session;
