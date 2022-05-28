@@ -6,10 +6,7 @@ import ru.javastudy.hibernate.entities.Person_;
 import ru.javastudy.hibernate.entities.Student;
 import ru.javastudy.hibernate.entities.Student_;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Join;
-import javax.persistence.criteria.Root;
+import javax.persistence.criteria.*;
 import java.util.List;
 
 public class StudentCriteriaDAO extends AbstractDAO<Student> implements StudentDAO {
@@ -36,8 +33,13 @@ public class StudentCriteriaDAO extends AbstractDAO<Student> implements StudentD
         CriteriaBuilder b = session.getCriteriaBuilder();
         CriteriaQuery<Student> criteria = b.createQuery(Student.class);
         Root<Student> student = criteria.from(Student.class);
-        return session.createQuery(criteria.select(student).where(b.isNotNull(student.get(Student_.recordBook)))).list();
+        return session.createQuery(criteria.select(student)
+                .where(b.isNotNull(student.get(Student_.recordBook)))).list();
+    }
 
+    @Override
+    public void deleteAll() {
+        findAll().forEach(session::remove);
     }
 
     @Override

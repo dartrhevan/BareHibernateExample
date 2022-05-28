@@ -12,4 +12,6 @@ public interface StudentDAO {
     void persist(Student person);
 
     List<Student> findAll();
+
+    void deleteAll();
 }

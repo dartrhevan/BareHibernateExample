@@ -24,6 +24,11 @@ public class StudentHQLDAO extends AbstractDAO<Student> implements StudentDAO {
     }
 
     @Override
+    public void deleteAll() {
+        findAll().forEach(session::remove);
+    }
+
+    @Override
     public String getEntityName() {
         return "Student";
     }

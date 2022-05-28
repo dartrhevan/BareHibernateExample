@@ -32,9 +32,52 @@ public class GeneratingService {
 
 
     public void printAllEntities() {
+        printEntities();
+        printStudentsWithA();
+        printStudentsWithRecordBook();
+        deleteAll();
+        HibernateSessionFactory.shutdown();
+    }
+
+    private void deleteAll() {
+        System.out.println("Delete all");
+        HibernateSessionFactory.doInTransaction(s -> {
+            StudentDAO studentDAO = new StudentCriteriaDAO(s);
+            studentDAO.deleteAll();
+        });
+    }
+
+    private void printStudentsWithRecordBook() {
         HibernateSessionFactory.doInTransaction(s -> {
             StudentDAO studentHQLDAO = new StudentHQLDAO(s);
             StudentDAO studentCriteriaDAO = new StudentCriteriaDAO(s);
+            System.out.println("Students with record book via HQL");
+            studentHQLDAO.getStudentsWithRecordBook().forEach(System.out::println);
+            System.out.println();
+
+            System.out.println("Students with record book via Criteria");
+            studentCriteriaDAO.getStudentsWithRecordBook().forEach(System.out::println);
+            System.out.println();
+        });
+    }
+
+    private void printStudentsWithA() {
+        HibernateSessionFactory.doInTransaction(s -> {
+            StudentDAO studentHQLDAO = new StudentHQLDAO(s);
+            StudentDAO studentCriteriaDAO = new StudentCriteriaDAO(s);
+            System.out.println("Students with 'a' letter via HQL");
+            studentHQLDAO.getStudentsBySubstring("а").forEach(System.out::println);
+            System.out.println();
+
+            System.out.println("Students with 'a' letter via Criteria");
+            studentCriteriaDAO.getStudentsBySubstring("а").forEach(System.out::println);
+            System.out.println();
+        });
+    }
+
+    private void printEntities() {
+        HibernateSessionFactory.doInTransaction(s -> {
+            StudentDAO studentHQLDAO = new StudentHQLDAO(s);
             AbstractDAO<Person> personDAO = new PersonDAO(s);
             AbstractDAO<RecordBook> recordBookDAO = new RecordBookDAO(s);
 
@@ -49,23 +92,6 @@ public class GeneratingService {
             System.out.println("All record books:");
             recordBookDAO.findAll().forEach(System.out::println);
             System.out.println();
-
-            System.out.println("Students with 'a' letter via HQL");
-            studentHQLDAO.getStudentsBySubstring("а").forEach(System.out::println);
-            System.out.println();
-
-            System.out.println("Students with 'a' letter via Criteria");
-            studentCriteriaDAO.getStudentsBySubstring("а").forEach(System.out::println);
-            System.out.println();
-
-            System.out.println("Students with record book via HQL");
-            studentHQLDAO.getStudentsWithRecordBook().forEach(System.out::println);
-            System.out.println();
-
-            System.out.println("Students with record book via Criteria");
-            studentCriteriaDAO.getStudentsWithRecordBook().forEach(System.out::println);
-            System.out.println();
         });
-        HibernateSessionFactory.shutdown();
     }
 }

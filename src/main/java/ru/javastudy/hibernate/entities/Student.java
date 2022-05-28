@@ -1,9 +1,12 @@
 package ru.javastudy.hibernate.entities;
 
+import ru.javastudy.hibernate.utils.DeleteListener;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "student")
+@EntityListeners(DeleteListener.class)
 public class Student {
     private Long id;
     private RecordBook recordBook;
