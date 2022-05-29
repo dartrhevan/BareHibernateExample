@@ -1,31 +1,31 @@
-C:\Users\vovan\.jdks\corretto-1.8.0_302\bin\java.exe "-javaagent:D:\Programs\IntelliJ IDEA 2021.1.3\lib\idea_rt.jar=50992:D:\Programs\IntelliJ IDEA 2021.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\access-bridge-64.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\cldrdata.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\dnsns.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\jaccess.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\jfxrt.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\localedata.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\nashorn.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunec.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunjce_provider.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunmscapi.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunpkcs11.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\zipfs.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jfxswt.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\management-agent.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;D:\Documents\Studying\Разрабртка ПО\Hibernate OneToMany\target\classes;C:\Users\vovan\.m2\repository\org\postgresql\postgresql\42.3.4\postgresql-42.3.4.jar;C:\Users\vovan\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-core\5.3.2.Final\hibernate-core-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\vovan\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\vovan\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\vovan\.m2\repository\net\bytebuddy\byte-buddy\1.8.12\byte-buddy-1.8.12.jar;C:\Users\vovan\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\vovan\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\vovan\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\vovan\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\vovan\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\vovan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\vovan\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-jpamodelgen\5.3.2.Final\hibernate-jpamodelgen-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-entitymanager\5.3.2.Final\hibernate-entitymanager-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-osgi\5.3.2.Final\hibernate-osgi-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;C:\Users\vovan\.m2\repository\org\osgi\org.osgi.core\4.3.1\org.osgi.core-4.3.1.jar;C:\Users\vovan\.m2\repository\org\osgi\org.osgi.compendium\4.3.1\org.osgi.compendium-4.3.1.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-envers\5.3.2.Final\hibernate-envers-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-c3p0\5.3.2.Final\hibernate-c3p0-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\com\mchange\c3p0\0.9.5.2\c3p0-0.9.5.2.jar;C:\Users\vovan\.m2\repository\com\mchange\mchange-commons-java\0.2.11\mchange-commons-java-0.2.11.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-proxool\5.3.2.Final\hibernate-proxool-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\proxool\proxool\0.8.3\proxool-0.8.3.jar;C:\Users\vovan\.m2\repository\org\infinispan\infinispan-hibernate-cache\9.1.3.Final\infinispan-hibernate-cache-9.1.3.Final.jar;C:\Users\vovan\.m2\repository\org\infinispan\infinispan-core\9.1.3.Final\infinispan-core-9.1.3.Final.jar;C:\Users\vovan\.m2\repository\org\infinispan\infinispan-commons\9.1.3.Final\infinispan-commons-9.1.3.Final.jar;C:\Users\vovan\.m2\repository\org\jgroups\jgroups\4.0.7.Final\jgroups-4.0.7.Final.jar;C:\Users\vovan\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.4.0\caffeine-2.4.0.jar;C:\Users\vovan\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\vovan\.m2\repository\org\jboss\marshalling\jboss-marshalling-osgi\2.0.0.Beta3\jboss-marshalling-osgi-2.0.0.Beta3.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-ehcache\5.3.2.Final\hibernate-ehcache-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\net\sf\ehcache\ehcache\2.10.3\ehcache-2.10.3.jar;C:\Users\vovan\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar" ru.javastudy.hibernate.main.AppMain
-мая 21, 2022 5:14:54 PM org.hibernate.Version logVersion
+C:\Users\vovan\.jdks\corretto-1.8.0_302\bin\java.exe "-javaagent:D:\Programs\IntelliJ IDEA 2021.1.3\lib\idea_rt.jar=51179:D:\Programs\IntelliJ IDEA 2021.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\access-bridge-64.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\cldrdata.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\dnsns.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\jaccess.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\jfxrt.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\localedata.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\nashorn.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunec.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunjce_provider.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunmscapi.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\sunpkcs11.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\ext\zipfs.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jfxswt.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\management-agent.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\vovan\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;D:\Documents\Studying\Разрабртка ПО\Hibernate OneToMany\target\classes;C:\Users\vovan\.m2\repository\org\postgresql\postgresql\42.3.4\postgresql-42.3.4.jar;C:\Users\vovan\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-core\5.3.2.Final\hibernate-core-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\vovan\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\vovan\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\vovan\.m2\repository\net\bytebuddy\byte-buddy\1.8.12\byte-buddy-1.8.12.jar;C:\Users\vovan\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\vovan\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\vovan\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\vovan\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\vovan\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\vovan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\vovan\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-jpamodelgen\5.3.2.Final\hibernate-jpamodelgen-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-entitymanager\5.3.2.Final\hibernate-entitymanager-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-osgi\5.3.2.Final\hibernate-osgi-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\javax\interceptor\javax.interceptor-api\1.2\javax.interceptor-api-1.2.jar;C:\Users\vovan\.m2\repository\org\osgi\org.osgi.core\4.3.1\org.osgi.core-4.3.1.jar;C:\Users\vovan\.m2\repository\org\osgi\org.osgi.compendium\4.3.1\org.osgi.compendium-4.3.1.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-envers\5.3.2.Final\hibernate-envers-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-c3p0\5.3.2.Final\hibernate-c3p0-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\com\mchange\c3p0\0.9.5.2\c3p0-0.9.5.2.jar;C:\Users\vovan\.m2\repository\com\mchange\mchange-commons-java\0.2.11\mchange-commons-java-0.2.11.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-proxool\5.3.2.Final\hibernate-proxool-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\proxool\proxool\0.8.3\proxool-0.8.3.jar;C:\Users\vovan\.m2\repository\org\infinispan\infinispan-hibernate-cache\9.1.3.Final\infinispan-hibernate-cache-9.1.3.Final.jar;C:\Users\vovan\.m2\repository\org\infinispan\infinispan-core\9.1.3.Final\infinispan-core-9.1.3.Final.jar;C:\Users\vovan\.m2\repository\org\infinispan\infinispan-commons\9.1.3.Final\infinispan-commons-9.1.3.Final.jar;C:\Users\vovan\.m2\repository\org\jgroups\jgroups\4.0.7.Final\jgroups-4.0.7.Final.jar;C:\Users\vovan\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.4.0\caffeine-2.4.0.jar;C:\Users\vovan\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\vovan\.m2\repository\org\jboss\marshalling\jboss-marshalling-osgi\2.0.0.Beta3\jboss-marshalling-osgi-2.0.0.Beta3.jar;C:\Users\vovan\.m2\repository\org\hibernate\hibernate-ehcache\5.3.2.Final\hibernate-ehcache-5.3.2.Final.jar;C:\Users\vovan\.m2\repository\net\sf\ehcache\ehcache\2.10.3\ehcache-2.10.3.jar;C:\Users\vovan\.m2\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar" ru.javastudy.hibernate.main.AppMain
+мая 29, 2022 11:06:31 AM org.hibernate.Version logVersion
 INFO: HHH000412: Hibernate Core {5.3.2.Final}
-мая 21, 2022 5:14:54 PM org.hibernate.cfg.Environment <clinit>
+мая 29, 2022 11:06:31 AM org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
-мая 21, 2022 5:14:55 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+мая 29, 2022 11:06:31 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
 INFO: HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-мая 21, 2022 5:14:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+мая 29, 2022 11:06:32 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
 WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-мая 21, 2022 5:14:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+мая 29, 2022 11:06:32 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/lessonhiber]
-мая 21, 2022 5:14:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+мая 29, 2022 11:06:32 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001001: Connection properties: {user=lessonhiber, password=****}
-мая 21, 2022 5:14:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+мая 29, 2022 11:06:32 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
 INFO: HHH10001003: Autocommit mode: false
-мая 21, 2022 5:14:55 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+мая 29, 2022 11:06:32 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
 INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
-мая 21, 2022 5:14:55 PM org.hibernate.dialect.Dialect <init>
+мая 29, 2022 11:06:32 AM org.hibernate.dialect.Dialect <init>
 INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
-мая 21, 2022 5:14:55 PM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
+мая 29, 2022 11:06:32 AM org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl useContextualLobCreation
 INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-мая 21, 2022 5:14:55 PM org.hibernate.type.BasicTypeRegistry register
+мая 29, 2022 11:06:32 AM org.hibernate.type.BasicTypeRegistry register
 INFO: HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2a7f1f10
-мая 21, 2022 5:14:55 PM org.hibernate.envers.boot.internal.EnversServiceImpl configure
+мая 29, 2022 11:06:32 AM org.hibernate.envers.boot.internal.EnversServiceImpl configure
 INFO: Envers integration enabled? : true
-мая 21, 2022 5:14:56 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@33a053d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-мая 21, 2022 5:14:56 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+мая 29, 2022 11:06:33 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@219f4597] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+мая 29, 2022 11:06:33 AM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
 WARN: GenerationTarget encountered exception accepting command : Error executing DDL "alter table student drop constraint FKnwsufvlvlnsxqv60ltj06bbfx" via JDBC Statement
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table student drop constraint FKnwsufvlvlnsxqv60ltj06bbfx" via JDBC Statement
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
@@ -58,7 +58,7 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "student" does not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
 	... 16 more
 
-мая 21, 2022 5:14:56 PM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
+мая 29, 2022 11:06:33 AM org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl handleException
 WARN: GenerationTarget encountered exception accepting command : Error executing DDL "alter table student drop constraint FKi6i8o3or92g96myh1vbo3exeu" via JDBC Statement
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table student drop constraint FKi6i8o3or92g96myh1vbo3exeu" via JDBC Statement
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
@@ -91,84 +91,97 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "student" does not
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
 	... 16 more
 
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: SQL Warning Code: 0, SQLState: 00000
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: table "person" does not exist, skipping
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: SQL Warning Code: 0, SQLState: 00000
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: table "record_book" does not exist, skipping
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: SQL Warning Code: 0, SQLState: 00000
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: table "student" does not exist, skipping
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: SQL Warning Code: 0, SQLState: 00000
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler logWarning
 WARN: sequence "hibernate_sequence" does not exist, skipping
-мая 21, 2022 5:14:56 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2e16b08d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-мая 21, 2022 5:14:56 PM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
-INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@42561fba'
+мая 29, 2022 11:06:33 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@771158fb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+мая 29, 2022 11:06:33 AM org.hibernate.tool.schema.internal.SchemaCreatorImpl applyImportSources
+INFO: HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@150d80c4'
 All students:
-мая 21, 2022 5:14:56 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+мая 29, 2022 11:06:33 AM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
 INFO: HHH000397: Using ASTQueryTranslatorFactory
-Student{id=12, recordBook=RecordBook{id=11, code=980253951}, person=Person{id=1, passportSeria=-1097270449, lastName='дуЦцГгзнЫТЗцтЭД', firstName='НхиПСкШЪтАщЯЛАй', middleName='аяьНЕЦимэЪлаКТК'}, group='982674e2-7590-4f40-b847-d4dcf93f5f14'}
-Student{id=13, recordBook=RecordBook{id=14, code=-613242412}, person=Person{id=2, passportSeria=-261636595, lastName='црЛэвДЛЧФЬФмбйе', firstName='ОШддоТНиьуХКОЫТ', middleName='лГаЯтГсИякоигСц'}, group='e66e3f5f-6857-48b4-a938-d70694fb8116'}
-Student{id=15, recordBook=RecordBook{id=16, code=-140042157}, person=Person{id=3, passportSeria=-378490310, lastName='ЙъцЭяЦплКтСбпФц', firstName='РъКкгЬЕвГлЩяиТЪ', middleName='жнЙЭлРУРВбуявйА'}, group='99cd497b-0c64-4ada-8e95-4d4f7a40e73a'}
-Student{id=17, recordBook=null, person=Person{id=4, passportSeria=1481513355, lastName='гШСФвщуыикЖЕХвм', firstName='ъвйпэЪхкхвЮуМаш', middleName='яэИЮчШЙэОЖБрЮЯШ'}, group='65e78746-2f25-47f2-a0b8-6835de2254ec'}
-Student{id=18, recordBook=null, person=Person{id=5, passportSeria=367779453, lastName='ЖеэЭоИбюНиЬЙУЪЧ', firstName='сДцКъъцуТЕНЮьЬэ', middleName='фэбхЭИйЛНМкчцЖу'}, group='275af4d7-2842-407c-a313-867060e24cbe'}
-Student{id=19, recordBook=null, person=Person{id=6, passportSeria=1852332736, lastName='ПВрекИХкбОТЪТхЗ', firstName='ЩоЭЯАРлЙСзгХПЖс', middleName='жВЗйЮцЦЯКИеЕТЮЗ'}, group='45fb0090-3774-42d7-b855-6f3d22d8da65'}
-Student{id=20, recordBook=null, person=Person{id=7, passportSeria=-903442579, lastName='БнМЖщщшЙЭНЪЧИвю', firstName='ыОЫШэЬярХНБнПОж', middleName='ЫсгеяЗмфнНВЮИКш'}, group='8c42773d-1bb9-42e7-97f1-57336b0aa08f'}
-Student{id=21, recordBook=null, person=Person{id=8, passportSeria=704103201, lastName='щУчСЕжэпОЦАОэЩп', firstName='рЛшбЮсЛыРчюБОЫХ', middleName='дДсЫКнЦоЩЮБГЕЗз'}, group='797d0fd2-10f6-4a01-ba47-8f65b1581f9d'}
-Student{id=22, recordBook=null, person=Person{id=9, passportSeria=-898869790, lastName='ТбоаьдподОЩПмъН', firstName='уВнуЯВкъНДъшасГ', middleName='жЩадзУЯЗЛЪбшиаю'}, group='23022d02-dd9b-41d9-8599-328f82b80bfd'}
-Student{id=23, recordBook=null, person=Person{id=10, passportSeria=1230497001, lastName='ЗюоътТфыьБцЧпйШ', firstName='ДАфщхехЪЪиЙБХЯд', middleName='окзлХОЛыгбЗФЖия'}, group='2d91422f-e24b-4249-a704-7e9f620bc8b1'}
+Student{id=12, recordBook=RecordBook{id=11, code=628806280}, person=Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}, group='296eb630-26ba-47df-8bd3-e74a9899df72'}
+Student{id=13, recordBook=RecordBook{id=14, code=-1544825161}, person=Person{id=2, passportSeria=1222970630, lastName='НкЗЖЮпеУоддщъФЬ', firstName='тъАСЯЯЖэгщГАЭсМ', middleName='щчлВлЖНоТтЩчхЛэ'}, group='b3e5ea96-9417-4c48-b368-eb89d79bfccd'}
+Student{id=15, recordBook=RecordBook{id=16, code=1701013525}, person=Person{id=3, passportSeria=-1503691252, lastName='ЕЛсшнГХзувгЗзФЖ', firstName='ыоЯЗянЩмшЙРбФес', middleName='ЬфсенМшбюРШУХьУ'}, group='519656ca-bd32-45cc-b567-c33e2d1c1446'}
+Student{id=17, recordBook=null, person=Person{id=4, passportSeria=2050129383, lastName='ИжзтЦЩъБбьЯПНФЕ', firstName='гКПнфкДЩжюЛАШгъ', middleName='ЧдаРВрщрЗЩФВБКО'}, group='f9372c5f-96c8-451f-94da-60a4ec009929'}
+Student{id=18, recordBook=null, person=Person{id=5, passportSeria=1542521030, lastName='ЖжвюыШПчРъВпЮчК', firstName='ЪуЩюГЬпЮхЮЪБоКЕ', middleName='ПМЗпвеСфАЯуДъБз'}, group='3620b971-b5f5-4a80-8c76-1dd2db426f99'}
+Student{id=19, recordBook=null, person=Person{id=6, passportSeria=-500610791, lastName='ФЫНЙГлюлптСцагз', firstName='ЙВЬНюцБжнцАллЖП', middleName='ИУШЧтЪПРЧЖЕВоЙМ'}, group='f3841e9f-4ef3-42a1-a702-3df12816849c'}
+Student{id=20, recordBook=null, person=Person{id=7, passportSeria=-80005288, lastName='ВщЦяЯзгхУОуЗгрм', firstName='шЫЯФкнПЕяяФДллы', middleName='СкУяЦЖЮЛЙзНвъОд'}, group='9c0c93e0-2f94-431f-8559-4f8afffe6172'}
+Student{id=21, recordBook=null, person=Person{id=8, passportSeria=1486557275, lastName='БщдТокъБЙхъЗЫчн', firstName='ЩБоЧЩЖцЫяэбмАИш', middleName='зцжФмЯцЦеРАбоПщ'}, group='883935d6-f3e6-4694-8d38-827b4a09a4fb'}
+Student{id=22, recordBook=null, person=Person{id=9, passportSeria=629899594, lastName='ПСмВЩОусалИгЫКа', firstName='КбЭрЦмпхЛфЦЭвбн', middleName='ИоткбЦЮОТБЬЫэСт'}, group='cbeaaeb6-8346-43cb-b107-dbcf1721fbe0'}
+Student{id=23, recordBook=null, person=Person{id=10, passportSeria=-145375119, lastName='пйЭыЪыАДПРТкЮср', firstName='РщХреВжйФюЙчсРЮ', middleName='ьаЖЛбзмЖгаТЭЭЛЧ'}, group='d6635c09-2488-4c79-8ede-cdbebfa0a4a2'}
 
 All persons:
-Person{id=1, passportSeria=-1097270449, lastName='дуЦцГгзнЫТЗцтЭД', firstName='НхиПСкШЪтАщЯЛАй', middleName='аяьНЕЦимэЪлаКТК'}
-Person{id=2, passportSeria=-261636595, lastName='црЛэвДЛЧФЬФмбйе', firstName='ОШддоТНиьуХКОЫТ', middleName='лГаЯтГсИякоигСц'}
-Person{id=3, passportSeria=-378490310, lastName='ЙъцЭяЦплКтСбпФц', firstName='РъКкгЬЕвГлЩяиТЪ', middleName='жнЙЭлРУРВбуявйА'}
-Person{id=4, passportSeria=1481513355, lastName='гШСФвщуыикЖЕХвм', firstName='ъвйпэЪхкхвЮуМаш', middleName='яэИЮчШЙэОЖБрЮЯШ'}
-Person{id=5, passportSeria=367779453, lastName='ЖеэЭоИбюНиЬЙУЪЧ', firstName='сДцКъъцуТЕНЮьЬэ', middleName='фэбхЭИйЛНМкчцЖу'}
-Person{id=6, passportSeria=1852332736, lastName='ПВрекИХкбОТЪТхЗ', firstName='ЩоЭЯАРлЙСзгХПЖс', middleName='жВЗйЮцЦЯКИеЕТЮЗ'}
-Person{id=7, passportSeria=-903442579, lastName='БнМЖщщшЙЭНЪЧИвю', firstName='ыОЫШэЬярХНБнПОж', middleName='ЫсгеяЗмфнНВЮИКш'}
-Person{id=8, passportSeria=704103201, lastName='щУчСЕжэпОЦАОэЩп', firstName='рЛшбЮсЛыРчюБОЫХ', middleName='дДсЫКнЦоЩЮБГЕЗз'}
-Person{id=9, passportSeria=-898869790, lastName='ТбоаьдподОЩПмъН', firstName='уВнуЯВкъНДъшасГ', middleName='жЩадзУЯЗЛЪбшиаю'}
-Person{id=10, passportSeria=1230497001, lastName='ЗюоътТфыьБцЧпйШ', firstName='ДАфщхехЪЪиЙБХЯд', middleName='окзлХОЛыгбЗФЖия'}
+Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}
+Person{id=2, passportSeria=1222970630, lastName='НкЗЖЮпеУоддщъФЬ', firstName='тъАСЯЯЖэгщГАЭсМ', middleName='щчлВлЖНоТтЩчхЛэ'}
+Person{id=3, passportSeria=-1503691252, lastName='ЕЛсшнГХзувгЗзФЖ', firstName='ыоЯЗянЩмшЙРбФес', middleName='ЬфсенМшбюРШУХьУ'}
+Person{id=4, passportSeria=2050129383, lastName='ИжзтЦЩъБбьЯПНФЕ', firstName='гКПнфкДЩжюЛАШгъ', middleName='ЧдаРВрщрЗЩФВБКО'}
+Person{id=5, passportSeria=1542521030, lastName='ЖжвюыШПчРъВпЮчК', firstName='ЪуЩюГЬпЮхЮЪБоКЕ', middleName='ПМЗпвеСфАЯуДъБз'}
+Person{id=6, passportSeria=-500610791, lastName='ФЫНЙГлюлптСцагз', firstName='ЙВЬНюцБжнцАллЖП', middleName='ИУШЧтЪПРЧЖЕВоЙМ'}
+Person{id=7, passportSeria=-80005288, lastName='ВщЦяЯзгхУОуЗгрм', firstName='шЫЯФкнПЕяяФДллы', middleName='СкУяЦЖЮЛЙзНвъОд'}
+Person{id=8, passportSeria=1486557275, lastName='БщдТокъБЙхъЗЫчн', firstName='ЩБоЧЩЖцЫяэбмАИш', middleName='зцжФмЯцЦеРАбоПщ'}
+Person{id=9, passportSeria=629899594, lastName='ПСмВЩОусалИгЫКа', firstName='КбЭрЦмпхЛфЦЭвбн', middleName='ИоткбЦЮОТБЬЫэСт'}
+Person{id=10, passportSeria=-145375119, lastName='пйЭыЪыАДПРТкЮср', firstName='РщХреВжйФюЙчсРЮ', middleName='ьаЖЛбзмЖгаТЭЭЛЧ'}
 
 All record books:
-RecordBook{id=11, code=980253951}
-RecordBook{id=14, code=-613242412}
-RecordBook{id=16, code=-140042157}
+RecordBook{id=11, code=628806280}
+RecordBook{id=14, code=-1544825161}
+RecordBook{id=16, code=1701013525}
 
 Students with 'a' letter via HQL
-Student{id=12, recordBook=RecordBook{id=11, code=980253951}, person=Person{id=1, passportSeria=-1097270449, lastName='дуЦцГгзнЫТЗцтЭД', firstName='НхиПСкШЪтАщЯЛАй', middleName='аяьНЕЦимэЪлаКТК'}, group='982674e2-7590-4f40-b847-d4dcf93f5f14'}
-Student{id=13, recordBook=RecordBook{id=14, code=-613242412}, person=Person{id=2, passportSeria=-261636595, lastName='црЛэвДЛЧФЬФмбйе', firstName='ОШддоТНиьуХКОЫТ', middleName='лГаЯтГсИякоигСц'}, group='e66e3f5f-6857-48b4-a938-d70694fb8116'}
-Student{id=17, recordBook=null, person=Person{id=4, passportSeria=1481513355, lastName='гШСФвщуыикЖЕХвм', firstName='ъвйпэЪхкхвЮуМаш', middleName='яэИЮчШЙэОЖБрЮЯШ'}, group='65e78746-2f25-47f2-a0b8-6835de2254ec'}
-Student{id=22, recordBook=null, person=Person{id=9, passportSeria=-898869790, lastName='ТбоаьдподОЩПмъН', firstName='уВнуЯВкъНДъшасГ', middleName='жЩадзУЯЗЛЪбшиаю'}, group='23022d02-dd9b-41d9-8599-328f82b80bfd'}
+Student{id=12, recordBook=RecordBook{id=11, code=628806280}, person=Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}, group='296eb630-26ba-47df-8bd3-e74a9899df72'}
+Student{id=17, recordBook=null, person=Person{id=4, passportSeria=2050129383, lastName='ИжзтЦЩъБбьЯПНФЕ', firstName='гКПнфкДЩжюЛАШгъ', middleName='ЧдаРВрщрЗЩФВБКО'}, group='f9372c5f-96c8-451f-94da-60a4ec009929'}
+Student{id=19, recordBook=null, person=Person{id=6, passportSeria=-500610791, lastName='ФЫНЙГлюлптСцагз', firstName='ЙВЬНюцБжнцАллЖП', middleName='ИУШЧтЪПРЧЖЕВоЙМ'}, group='f3841e9f-4ef3-42a1-a702-3df12816849c'}
+Student{id=22, recordBook=null, person=Person{id=9, passportSeria=629899594, lastName='ПСмВЩОусалИгЫКа', firstName='КбЭрЦмпхЛфЦЭвбн', middleName='ИоткбЦЮОТБЬЫэСт'}, group='cbeaaeb6-8346-43cb-b107-dbcf1721fbe0'}
+Student{id=23, recordBook=null, person=Person{id=10, passportSeria=-145375119, lastName='пйЭыЪыАДПРТкЮср', firstName='РщХреВжйФюЙчсРЮ', middleName='ьаЖЛбзмЖгаТЭЭЛЧ'}, group='d6635c09-2488-4c79-8ede-cdbebfa0a4a2'}
 
 Students with 'a' letter via Criteria
-Student{id=12, recordBook=RecordBook{id=11, code=980253951}, person=Person{id=1, passportSeria=-1097270449, lastName='дуЦцГгзнЫТЗцтЭД', firstName='НхиПСкШЪтАщЯЛАй', middleName='аяьНЕЦимэЪлаКТК'}, group='982674e2-7590-4f40-b847-d4dcf93f5f14'}
-Student{id=13, recordBook=RecordBook{id=14, code=-613242412}, person=Person{id=2, passportSeria=-261636595, lastName='црЛэвДЛЧФЬФмбйе', firstName='ОШддоТНиьуХКОЫТ', middleName='лГаЯтГсИякоигСц'}, group='e66e3f5f-6857-48b4-a938-d70694fb8116'}
-Student{id=17, recordBook=null, person=Person{id=4, passportSeria=1481513355, lastName='гШСФвщуыикЖЕХвм', firstName='ъвйпэЪхкхвЮуМаш', middleName='яэИЮчШЙэОЖБрЮЯШ'}, group='65e78746-2f25-47f2-a0b8-6835de2254ec'}
-Student{id=22, recordBook=null, person=Person{id=9, passportSeria=-898869790, lastName='ТбоаьдподОЩПмъН', firstName='уВнуЯВкъНДъшасГ', middleName='жЩадзУЯЗЛЪбшиаю'}, group='23022d02-dd9b-41d9-8599-328f82b80bfd'}
+Student{id=12, recordBook=RecordBook{id=11, code=628806280}, person=Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}, group='296eb630-26ba-47df-8bd3-e74a9899df72'}
+Student{id=17, recordBook=null, person=Person{id=4, passportSeria=2050129383, lastName='ИжзтЦЩъБбьЯПНФЕ', firstName='гКПнфкДЩжюЛАШгъ', middleName='ЧдаРВрщрЗЩФВБКО'}, group='f9372c5f-96c8-451f-94da-60a4ec009929'}
+Student{id=19, recordBook=null, person=Person{id=6, passportSeria=-500610791, lastName='ФЫНЙГлюлптСцагз', firstName='ЙВЬНюцБжнцАллЖП', middleName='ИУШЧтЪПРЧЖЕВоЙМ'}, group='f3841e9f-4ef3-42a1-a702-3df12816849c'}
+Student{id=22, recordBook=null, person=Person{id=9, passportSeria=629899594, lastName='ПСмВЩОусалИгЫКа', firstName='КбЭрЦмпхЛфЦЭвбн', middleName='ИоткбЦЮОТБЬЫэСт'}, group='cbeaaeb6-8346-43cb-b107-dbcf1721fbe0'}
+Student{id=23, recordBook=null, person=Person{id=10, passportSeria=-145375119, lastName='пйЭыЪыАДПРТкЮср', firstName='РщХреВжйФюЙчсРЮ', middleName='ьаЖЛбзмЖгаТЭЭЛЧ'}, group='d6635c09-2488-4c79-8ede-cdbebfa0a4a2'}
 
 Students with record book via HQL
-Student{id=12, recordBook=RecordBook{id=11, code=980253951}, person=Person{id=1, passportSeria=-1097270449, lastName='дуЦцГгзнЫТЗцтЭД', firstName='НхиПСкШЪтАщЯЛАй', middleName='аяьНЕЦимэЪлаКТК'}, group='982674e2-7590-4f40-b847-d4dcf93f5f14'}
-Student{id=13, recordBook=RecordBook{id=14, code=-613242412}, person=Person{id=2, passportSeria=-261636595, lastName='црЛэвДЛЧФЬФмбйе', firstName='ОШддоТНиьуХКОЫТ', middleName='лГаЯтГсИякоигСц'}, group='e66e3f5f-6857-48b4-a938-d70694fb8116'}
-Student{id=15, recordBook=RecordBook{id=16, code=-140042157}, person=Person{id=3, passportSeria=-378490310, lastName='ЙъцЭяЦплКтСбпФц', firstName='РъКкгЬЕвГлЩяиТЪ', middleName='жнЙЭлРУРВбуявйА'}, group='99cd497b-0c64-4ada-8e95-4d4f7a40e73a'}
+Student{id=12, recordBook=RecordBook{id=11, code=628806280}, person=Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}, group='296eb630-26ba-47df-8bd3-e74a9899df72'}
+Student{id=13, recordBook=RecordBook{id=14, code=-1544825161}, person=Person{id=2, passportSeria=1222970630, lastName='НкЗЖЮпеУоддщъФЬ', firstName='тъАСЯЯЖэгщГАЭсМ', middleName='щчлВлЖНоТтЩчхЛэ'}, group='b3e5ea96-9417-4c48-b368-eb89d79bfccd'}
+Student{id=15, recordBook=RecordBook{id=16, code=1701013525}, person=Person{id=3, passportSeria=-1503691252, lastName='ЕЛсшнГХзувгЗзФЖ', firstName='ыоЯЗянЩмшЙРбФес', middleName='ЬфсенМшбюРШУХьУ'}, group='519656ca-bd32-45cc-b567-c33e2d1c1446'}
 
 Students with record book via Criteria
-Student{id=12, recordBook=RecordBook{id=11, code=980253951}, person=Person{id=1, passportSeria=-1097270449, lastName='дуЦцГгзнЫТЗцтЭД', firstName='НхиПСкШЪтАщЯЛАй', middleName='аяьНЕЦимэЪлаКТК'}, group='982674e2-7590-4f40-b847-d4dcf93f5f14'}
-Student{id=13, recordBook=RecordBook{id=14, code=-613242412}, person=Person{id=2, passportSeria=-261636595, lastName='црЛэвДЛЧФЬФмбйе', firstName='ОШддоТНиьуХКОЫТ', middleName='лГаЯтГсИякоигСц'}, group='e66e3f5f-6857-48b4-a938-d70694fb8116'}
-Student{id=15, recordBook=RecordBook{id=16, code=-140042157}, person=Person{id=3, passportSeria=-378490310, lastName='ЙъцЭяЦплКтСбпФц', firstName='РъКкгЬЕвГлЩяиТЪ', middleName='жнЙЭлРУРВбуявйА'}, group='99cd497b-0c64-4ada-8e95-4d4f7a40e73a'}
+Student{id=12, recordBook=RecordBook{id=11, code=628806280}, person=Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}, group='296eb630-26ba-47df-8bd3-e74a9899df72'}
+Student{id=13, recordBook=RecordBook{id=14, code=-1544825161}, person=Person{id=2, passportSeria=1222970630, lastName='НкЗЖЮпеУоддщъФЬ', firstName='тъАСЯЯЖэгщГАЭсМ', middleName='щчлВлЖНоТтЩчхЛэ'}, group='b3e5ea96-9417-4c48-b368-eb89d79bfccd'}
+Student{id=15, recordBook=RecordBook{id=16, code=1701013525}, person=Person{id=3, passportSeria=-1503691252, lastName='ЕЛсшнГХзувгЗзФЖ', firstName='ыоЯЗянЩмшЙРбФес', middleName='ЬфсенМшбюРШУХьУ'}, group='519656ca-bd32-45cc-b567-c33e2d1c1446'}
 
-мая 21, 2022 5:14:56 PM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+Delete all
+Deleting Student{id=12, recordBook=RecordBook{id=11, code=628806280}, person=Person{id=1, passportSeria=-1602653395, lastName='ЗЭфъЦМчфьыдМымР', firstName='чсРзъпЛЕаБЛЕЫДк', middleName='мНйЛИсЖцЗъччдЙН'}, group='296eb630-26ba-47df-8bd3-e74a9899df72'}
+Deleting Student{id=13, recordBook=RecordBook{id=14, code=-1544825161}, person=Person{id=2, passportSeria=1222970630, lastName='НкЗЖЮпеУоддщъФЬ', firstName='тъАСЯЯЖэгщГАЭсМ', middleName='щчлВлЖНоТтЩчхЛэ'}, group='b3e5ea96-9417-4c48-b368-eb89d79bfccd'}
+Deleting Student{id=15, recordBook=RecordBook{id=16, code=1701013525}, person=Person{id=3, passportSeria=-1503691252, lastName='ЕЛсшнГХзувгЗзФЖ', firstName='ыоЯЗянЩмшЙРбФес', middleName='ЬфсенМшбюРШУХьУ'}, group='519656ca-bd32-45cc-b567-c33e2d1c1446'}
+Deleting Student{id=17, recordBook=null, person=Person{id=4, passportSeria=2050129383, lastName='ИжзтЦЩъБбьЯПНФЕ', firstName='гКПнфкДЩжюЛАШгъ', middleName='ЧдаРВрщрЗЩФВБКО'}, group='f9372c5f-96c8-451f-94da-60a4ec009929'}
+Deleting Student{id=18, recordBook=null, person=Person{id=5, passportSeria=1542521030, lastName='ЖжвюыШПчРъВпЮчК', firstName='ЪуЩюГЬпЮхЮЪБоКЕ', middleName='ПМЗпвеСфАЯуДъБз'}, group='3620b971-b5f5-4a80-8c76-1dd2db426f99'}
+Deleting Student{id=19, recordBook=null, person=Person{id=6, passportSeria=-500610791, lastName='ФЫНЙГлюлптСцагз', firstName='ЙВЬНюцБжнцАллЖП', middleName='ИУШЧтЪПРЧЖЕВоЙМ'}, group='f3841e9f-4ef3-42a1-a702-3df12816849c'}
+Deleting Student{id=20, recordBook=null, person=Person{id=7, passportSeria=-80005288, lastName='ВщЦяЯзгхУОуЗгрм', firstName='шЫЯФкнПЕяяФДллы', middleName='СкУяЦЖЮЛЙзНвъОд'}, group='9c0c93e0-2f94-431f-8559-4f8afffe6172'}
+Deleting Student{id=21, recordBook=null, person=Person{id=8, passportSeria=1486557275, lastName='БщдТокъБЙхъЗЫчн', firstName='ЩБоЧЩЖцЫяэбмАИш', middleName='зцжФмЯцЦеРАбоПщ'}, group='883935d6-f3e6-4694-8d38-827b4a09a4fb'}
+Deleting Student{id=22, recordBook=null, person=Person{id=9, passportSeria=629899594, lastName='ПСмВЩОусалИгЫКа', firstName='КбЭрЦмпхЛфЦЭвбн', middleName='ИоткбЦЮОТБЬЫэСт'}, group='cbeaaeb6-8346-43cb-b107-dbcf1721fbe0'}
+Deleting Student{id=23, recordBook=null, person=Person{id=10, passportSeria=-145375119, lastName='пйЭыЪыАДПРТкЮср', firstName='РщХреВжйФюЙчсРЮ', middleName='ьаЖЛбзмЖгаТЭЭЛЧ'}, group='d6635c09-2488-4c79-8ede-cdbebfa0a4a2'}
+мая 29, 2022 11:06:33 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
 INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-мая 21, 2022 5:14:56 PM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
-INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@48b22fd4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-мая 21, 2022 5:14:56 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
+мая 29, 2022 11:06:33 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f80fa43] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+мая 29, 2022 11:06:33 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl stop
 INFO: HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/lessonhiber]
 
 Process finished with exit code 0
